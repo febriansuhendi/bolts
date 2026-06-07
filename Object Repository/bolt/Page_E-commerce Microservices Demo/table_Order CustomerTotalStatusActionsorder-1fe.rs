@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_Order CustomerTotalStatusActionsorder-1fe</name>
+   <tag></tag>
+   <elementGuidId>c50c42db-4d3b-4151-94de-16e314c063d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'order-table']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;order-table&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;order-table&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>table</value>
+      <webElementGuid>c29c07c2-5379-4492-9c90-bcf929271975</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>order-table</value>
+      <webElementGuid>09e19dd4-7f3e-4dd1-84ac-0a01ff38a31d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full text-sm</value>
+      <webElementGuid>89e6a79c-fc59-481f-9a0f-a26b1c68e488</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing</value>
+      <webElementGuid>7254dde2-a3b8-4728-b56d-1a394203faf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4891e77a5c55d295430b4c54ee5e9b77</value>
+      <webElementGuid>4d99e8eb-acc5-4536-8d2c-72af396ed711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'order-table']</value>
+      <webElementGuid>9ba772be-3cc5-408c-be89-5c4ace89e575</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'order-table']</value>
+      <webElementGuid>62414fb1-b450-4d0b-a72c-ed2579c42783</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//table[(text() = 'Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing' or . = 'Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing')]</value>
+      <webElementGuid>6af47965-6c7c-4a1d-83ab-3ee81ce8cc3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

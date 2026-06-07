@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_ORD-747</name>
+   <tag></tag>
+   <elementGuidId>de86f9b8-1ed9-4b4a-a089-25486aeed255</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.transition-colors:nth-child(1) td.font-medium</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;ORD-747&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>90e0fd99-0ad2-4f71-b22b-1341f80fdece</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>px-4 py-3 font-medium text-gray-900</value>
+      <webElementGuid>28793231-0f83-4dd2-a626-14994e1a3145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ORD-747</value>
+      <webElementGuid>ef39f6d0-bc17-4799-a0d0-a884d544805e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-26e4251158084d827987e50e0395eb3f</value>
+      <webElementGuid>56449933-321c-4581-8df2-555847a92f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+      <webElementGuid>59b3cc63-4822-4906-a90a-266df26c32de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+      <webElementGuid>2772b765-33d6-47a2-9824-a15682e8e894</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'ORD-747' or . = 'ORD-747')]</value>
+      <webElementGuid>f8e2bc42-252b-458b-885d-e07a33fea86e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
