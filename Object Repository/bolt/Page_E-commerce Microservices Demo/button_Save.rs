@@ -6,12 +6,12 @@
    <elementGuidId>cf8d0c99-c041-4a90-9cb3-77c91c1eb695</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'order-save-button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[data-testid=&quot;order-save-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div/div/main/div[2]/div[2]/div[2]/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cfbf7061-83b2-4513-8470-b8dd955f1555</webElementGuid>
+      <webElementGuid>6b125460-cf70-4785-85d0-8078cb1a87e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>order-save-button</value>
-      <webElementGuid>0636c837-c2df-47b7-b687-6979c420dfb7</webElementGuid>
+      <webElementGuid>8ae602ac-af09-4433-85ea-6dd9cfaf54d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex-1 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 disabled:bg-blue-400 transition-colors flex items-center justify-center gap-2</value>
-      <webElementGuid>f6f28a79-08b9-4d20-b7c9-1a12181c3839</webElementGuid>
+      <webElementGuid>4b3cc642-17b5-4abe-b20d-3e350011a8c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>f7b71879-fc15-4831-83d2-68191a6f6f23</webElementGuid>
+      <webElementGuid>48a2f174-d590-48c2-b49d-14c50c905b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-73a6b090c23265b99a18d857f80e2f0f</value>
-      <webElementGuid>cd8005b3-2237-44f7-a3b7-19158998874b</webElementGuid>
+      <webElementGuid>10b23870-609d-448e-abe9-c49267c5e11d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,22 +69,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'order-save-button']</value>
-      <webElementGuid>e22ca113-73a0-4a38-b3a1-f10f3c7712f8</webElementGuid>
+      <webElementGuid>2e2eaeec-fee8-4dfc-b3a1-c0853416904e</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//*[@data-testid = 'order-save-button']</value>
-      <webElementGuid>304dd862-22c0-4260-8141-c60943e713fe</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>e51e3045-1adf-443d-a1dd-1168f3ce60f7</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

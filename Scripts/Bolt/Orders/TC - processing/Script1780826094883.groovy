@@ -20,24 +20,30 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://e-commerce-microserv-nrvq.bolt.host/login')
 
+WebUI.delay(10)
+
 WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), 'admin@test.com')
 
 WebUI.setEncryptedText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), '8SQVv/p9jVTHLrggi8kCzw==')
 
 WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
 
+WebUI.delay(10)
+
 WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
 
 WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'))
+
+WebUI.delay(10)
 
 WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/table_Order CustomerTotalStatusActionsorder-1fe'), 
     0)
 
 WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/button_New Order'))
 
-WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_e.g. ORD-003'), 'ORD-747')
+WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_e.g. ORD-003'), 'ORD-749')
 
-WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Customer name'), 'Jim Root')
+WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Customer name'), 'Processing Order')
 
 WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_w-full px-3 py-2 border border-gray-300 r'), 
     '0100')
@@ -46,6 +52,4 @@ WebUI.selectOptionByValue(findTestObject('bolt/Page_E-commerce Microservices Dem
     'processing', false)
 
 WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Save'))
-
-WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/td_ORD-747'))
 

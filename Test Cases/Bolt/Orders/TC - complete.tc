@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Order with Pending Status</name>
+   <name>TC - complete</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7e144dd3-7d0a-438b-8995-ae5c65b3a614</testCaseGuid>
+   <testCaseGuid>c96f7725-8d62-485d-963c-e0207197ef65</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fc258088-c802-4926-938d-821e5593db52</variableId>
+      <variableId>5ab6f48a-8ba4-4c4f-83b6-08a6f093a5af</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ca9da52d-f663-4a43-a704-8d7e243b701f</variableId>
+      <variableId>9e0aba81-6092-4e68-91e5-4a31e4d0b4c0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a6db0702-8093-48d3-87ea-952a5c2e9263</variableId>
+      <variableId>f1430399-9354-48f5-b1c0-4ca31b68632f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>50a95af9-ff4e-4357-9597-d561c3d647a7</variableId>
+      <variableId>31bcda74-0d29-4c1e-9ce3-9da3652317de</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e40edf3f-0976-4784-b2ca-02b931a50e8b</variableId>
+      <variableId>a802393b-b556-4598-9aee-9d4d7f910ca5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2ef90d1b-a967-4876-8c7c-d8847dd6fd50</variableId>
+      <variableId>ae0a2dc3-e321-49cb-9448-2450a64cbb2e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>be61681c-e238-457e-ad7b-87027b8c80cf</variableId>
+      <variableId>a4770afa-3089-47ab-b3d0-50701219c9f8</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>72388422-52f9-45d6-822b-95598b01b59d</variableId>
+      <variableId>9bda06b9-0106-4f48-9433-1f5b5b9f9cb1</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.firstName</defaultValue>
       <description></description>
-      <id>fc258088-c802-4926-938d-821e5593db52</id>
+      <id>5ab6f48a-8ba4-4c4f-83b6-08a6f093a5af</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.lastName</defaultValue>
       <description></description>
-      <id>ca9da52d-f663-4a43-a704-8d7e243b701f</id>
+      <id>9e0aba81-6092-4e68-91e5-4a31e4d0b4c0</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.companyName</defaultValue>
       <description></description>
-      <id>a6db0702-8093-48d3-87ea-952a5c2e9263</id>
+      <id>f1430399-9354-48f5-b1c0-4ca31b68632f</id>
       <masked>false</masked>
       <name>companyName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.country</defaultValue>
       <description></description>
-      <id>50a95af9-ff4e-4357-9597-d561c3d647a7</id>
+      <id>31bcda74-0d29-4c1e-9ce3-9da3652317de</id>
       <masked>false</masked>
       <name>country</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.address</defaultValue>
       <description></description>
-      <id>e40edf3f-0976-4784-b2ca-02b931a50e8b</id>
+      <id>a802393b-b556-4598-9aee-9d4d7f910ca5</id>
       <masked>false</masked>
       <name>address</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.city</defaultValue>
       <description></description>
-      <id>2ef90d1b-a967-4876-8c7c-d8847dd6fd50</id>
+      <id>ae0a2dc3-e321-49cb-9448-2450a64cbb2e</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.postCode</defaultValue>
       <description></description>
-      <id>be61681c-e238-457e-ad7b-87027b8c80cf</id>
+      <id>a4770afa-3089-47ab-b3d0-50701219c9f8</id>
       <masked>false</masked>
       <name>postCode</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.Phone</defaultValue>
       <description></description>
-      <id>72388422-52f9-45d6-822b-95598b01b59d</id>
+      <id>9bda06b9-0106-4f48-9433-1f5b5b9f9cb1</id>
       <masked>false</masked>
       <name>Phone</name>
    </variable>

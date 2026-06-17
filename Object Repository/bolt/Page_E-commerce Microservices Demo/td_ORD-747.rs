@@ -6,12 +6,12 @@
    <elementGuidId>de86f9b8-1ed9-4b4a-a089-25486aeed255</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>tr.transition-colors:nth-child(1) td.font-medium</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>90e0fd99-0ad2-4f71-b22b-1341f80fdece</webElementGuid>
+      <webElementGuid>df6a8c25-c4e3-44d4-8ab4-9c728a9f32d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>px-4 py-3 font-medium text-gray-900</value>
-      <webElementGuid>28793231-0f83-4dd2-a626-14994e1a3145</webElementGuid>
+      <webElementGuid>9ce9224d-02f0-4d19-933c-b4419d471810</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ORD-747</value>
-      <webElementGuid>ef39f6d0-bc17-4799-a0d0-a884d544805e</webElementGuid>
+      <webElementGuid>ceb9ac4c-a229-4a5a-82f0-11125ed26ec2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-26e4251158084d827987e50e0395eb3f</value>
-      <webElementGuid>56449933-321c-4581-8df2-555847a92f83</webElementGuid>
+      <webElementGuid>0082e03f-59d8-4876-8595-c7d69b5007a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,22 +61,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
-      <webElementGuid>59b3cc63-4822-4906-a90a-266df26c32de</webElementGuid>
+      <webElementGuid>39f8bbb3-a285-49b5-b21d-33cf382d6685</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
-      <webElementGuid>2772b765-33d6-47a2-9824-a15682e8e894</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//td[(text() = 'ORD-747' or . = 'ORD-747')]</value>
-      <webElementGuid>f8e2bc42-252b-458b-885d-e07a33fea86e</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

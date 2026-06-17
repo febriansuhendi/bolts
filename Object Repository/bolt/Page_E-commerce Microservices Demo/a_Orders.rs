@@ -6,12 +6,12 @@
    <elementGuidId>ff3e99d0-33ae-4f2f-b1cc-bca412c96ca7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'sidebar-orders']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[data-testid=&quot;sidebar-orders&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/aside/nav/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4a57baa1-35b2-47f6-8c82-de3518ebd9d6</webElementGuid>
+      <webElementGuid>c88d9856-c3a8-437a-83a0-125991cf6b74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>sidebar-orders</value>
-      <webElementGuid>91ee04b6-7afa-4162-858b-6f5a56fc041f</webElementGuid>
+      <webElementGuid>a4e44005-29b0-45f4-95a3-46d3c12d7ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <type>Main</type>
       <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
               text-gray-300 hover:bg-gray-800 hover:text-white</value>
-      <webElementGuid>452d8c8e-3bf7-4650-a8b6-430436d19741</webElementGuid>
+      <webElementGuid>6fe58620-f7d5-497c-bffe-69f56e1b19fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/orders</value>
-      <webElementGuid>260a2385-df7c-436c-96d7-ff20ee801cba</webElementGuid>
+      <webElementGuid>a052392b-1fa5-4111-983e-7e51516e965f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-discover</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1b3f959a-d7b3-4b8e-990b-a9111e9af5ab</webElementGuid>
+      <webElementGuid>ef24a6cd-73d7-4286-bc4d-5966352d4a58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Orders</value>
-      <webElementGuid>e9c3c8c9-271d-4a14-b399-7335912dc236</webElementGuid>
+      <webElementGuid>0e7c24ed-cb2c-4b0c-981f-9df4e9ee5701</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
-      <webElementGuid>db9c9d22-5c0a-4c03-a731-336b6829d850</webElementGuid>
+      <webElementGuid>ca5e851b-3035-48be-add7-1d1acdd06c1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,22 +86,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>c5413a81-41b5-4e10-8556-b0d350eb0309</webElementGuid>
+      <webElementGuid>76c93eff-ca64-4583-8fe9-a1bff9de77ee</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>38e7de2b-35ec-4874-b7ab-930bae1763ec</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '/orders' and (text() = 'Orders' or . = 'Orders')]</value>
-      <webElementGuid>c7aa48d7-dd6d-4c1a-a7f3-79259d0d6cf0</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>
