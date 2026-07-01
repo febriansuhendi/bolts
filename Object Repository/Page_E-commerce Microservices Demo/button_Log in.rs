@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Sign in</name>
+   <name>button_Log in</name>
    <tag></tag>
-   <elementGuidId>4c53c0b0-a66c-4e75-a8ed-913f5809f3af</elementGuidId>
+   <elementGuidId>cd4c4abf-10f4-4247-8719-c5ff0c21472e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'login-submit-button']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;login-submit-button&quot;]</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/form/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a48f5b9f-d273-4d74-a1b7-ec8b75978c4e</webElementGuid>
+      <webElementGuid>c51cc6ad-0831-424a-992e-5494ecbbdd6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>0064709f-5a38-4f48-b8d5-5f7912a3fb4e</webElementGuid>
+      <webElementGuid>30426801-d403-4bdb-a773-a33a78b3a4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>login-submit-button</value>
-      <webElementGuid>340f7bef-a353-4a06-bf6b-6759e3b5d63c</webElementGuid>
+      <webElementGuid>f6d2fcee-099e-4e31-8aeb-16f044e6e4bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full py-2.5 px-4 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium rounded-lg text-sm transition-colors flex items-center justify-center gap-2</value>
-      <webElementGuid>13030997-9851-452b-9246-628841b6c474</webElementGuid>
+      <webElementGuid>00e66ee1-6227-4aa7-988f-d48950d0f872</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign in</value>
-      <webElementGuid>21e61ebe-f3db-4db6-ac9f-eca7969ffae9</webElementGuid>
+      <webElementGuid>4478805a-82e8-4924-a583-8a3e2b4f1c81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,30 +69,14 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-7ba259bb220865aef1cdef6627b19ae5</value>
-      <webElementGuid>ec7702dc-83be-4fc6-b6f7-dc20bf487198</webElementGuid>
+      <webElementGuid>73a09575-3bd7-42b0-8431-2b392da77746</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'login-submit-button']</value>
-      <webElementGuid>d404c112-ca13-4424-b5ea-0c328dc04066</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;w-full max-w-md&quot;]/div[@class=&quot;bg-white rounded-2xl shadow-lg p-8 border border-gray-100&quot;]/form[@class=&quot;space-y-4&quot;]/button[@class=&quot;w-full py-2.5 px-4 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium rounded-lg text-sm transition-colors flex items-center justify-center gap-2&quot;]</value>
+      <webElementGuid>0c09b287-e302-4d8b-af23-b3d4800c3616</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//*[@data-testid = 'login-submit-button']</value>
-      <webElementGuid>d85884a3-24be-41f3-8419-df24d2df51b4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Sign in' or . = 'Sign in')]</value>
-      <webElementGuid>7eedb4fb-b55c-4037-af81-22237cee31c0</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

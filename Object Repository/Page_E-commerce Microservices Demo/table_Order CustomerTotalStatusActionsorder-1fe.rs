@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save</name>
+   <name>table_Order CustomerTotalStatusActionsorder-1fe</name>
    <tag></tag>
-   <elementGuidId>cf8d0c99-c041-4a90-9cb3-77c91c1eb695</elementGuidId>
+   <elementGuidId>c50c42db-4d3b-4151-94de-16e314c063d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'order-save-button']</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;order-table&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;order-save-button&quot;]</value>
+         <key>XPATH</key>
+         <value>//td[text()='${orderNumber}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;order-save-button&quot;]</value>
+         <value>[data-testid=&quot;order-table&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,63 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cfbf7061-83b2-4513-8470-b8dd955f1555</webElementGuid>
+      <value>table</value>
+      <webElementGuid>04148372-0eb6-4d84-8f44-fa57291d15cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>order-save-button</value>
-      <webElementGuid>0636c837-c2df-47b7-b687-6979c420dfb7</webElementGuid>
+      <value>order-table</value>
+      <webElementGuid>cefd857b-9390-4995-911e-45f95372979c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex-1 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded-lg hover:bg-blue-700 disabled:bg-blue-400 transition-colors flex items-center justify-center gap-2</value>
-      <webElementGuid>f6f28a79-08b9-4d20-b7c9-1a12181c3839</webElementGuid>
+      <value>w-full text-sm</value>
+      <webElementGuid>3515c586-b0b3-41c4-9c7e-0a415764b5d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Save</value>
-      <webElementGuid>f7b71879-fc15-4831-83d2-68191a6f6f23</webElementGuid>
+      <value>Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing</value>
+      <webElementGuid>934fe092-6bd0-4641-bb89-f3727dd816d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-73a6b090c23265b99a18d857f80e2f0f</value>
-      <webElementGuid>cd8005b3-2237-44f7-a3b7-19158998874b</webElementGuid>
+      <value>md5.v1-4891e77a5c55d295430b4c54ee5e9b77</value>
+      <webElementGuid>499dde9d-c7e3-4c03-bb08-5e0cc2af06a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-save-button']</value>
-      <webElementGuid>e22ca113-73a0-4a38-b3a1-f10f3c7712f8</webElementGuid>
+      <value>//*[@data-testid = 'order-table']</value>
+      <webElementGuid>6dd8d3f6-ec38-4d8e-b2a3-68fef74a1363</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-save-button']</value>
-      <webElementGuid>304dd862-22c0-4260-8141-c60943e713fe</webElementGuid>
+      <value>//*[@data-testid = 'order-table']</value>
+      <webElementGuid>017bbd11-c867-4068-923f-7ecfaa4068d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>e51e3045-1adf-443d-a1dd-1168f3ce60f7</webElementGuid>
+      <value>//table[(text() = 'Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing' or . = 'Order #CustomerTotalStatusActionsorder-1febrian$10.00completedORD-001Alice Johnson$239.98completedORD-002Bob Smith$89.99processing')]</value>
+      <webElementGuid>8308bf7d-e58b-49af-9510-2570fd833049</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

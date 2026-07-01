@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_w-full px-3 py-2 border border-gray-300 r</name>
+   <name>a_Orders</name>
    <tag></tag>
-   <elementGuidId>dd8bf085-8ae2-41a2-97eb-661eb606c1b2</elementGuidId>
+   <elementGuidId>ff3e99d0-33ae-4f2f-b1cc-bca412c96ca7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'order-total-input']</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;sidebar-orders&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;order-total-input&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-orders']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;order-total-input&quot;]</value>
+         <value>[data-testid=&quot;sidebar-orders&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,80 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>c9305c29-5247-4883-9589-709ed657e5e3</webElementGuid>
+      <value>a</value>
+      <webElementGuid>4a57baa1-35b2-47f6-8c82-de3518ebd9d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>order-total-input</value>
-      <webElementGuid>757a8b5b-98fc-4f7a-975e-507d2a36ff9a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>number</value>
-      <webElementGuid>5cfcab5f-feaa-48d6-9103-1eefe613e300</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>2ff24dc9-db57-40ed-add1-7654020629a5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>step</name>
-      <type>Main</type>
-      <value>0.01</value>
-      <webElementGuid>14ac6c61-1a27-4089-8202-ba13e9be0500</webElementGuid>
+      <value>sidebar-orders</value>
+      <webElementGuid>91ee04b6-7afa-4162-858b-6f5a56fc041f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500</value>
-      <webElementGuid>09d0d588-666f-41d3-bea0-cfe32d8075d3</webElementGuid>
+      <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
+              text-gray-300 hover:bg-gray-800 hover:text-white</value>
+      <webElementGuid>452d8c8e-3bf7-4650-a8b6-430436d19741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/orders</value>
+      <webElementGuid>260a2385-df7c-436c-96d7-ff20ee801cba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>data-discover</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>50bc6ef3-ca80-465c-865a-2f5d6b125abf</webElementGuid>
+      <value>true</value>
+      <webElementGuid>1b3f959a-d7b3-4b8e-990b-a9111e9af5ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Orders</value>
+      <webElementGuid>e9c3c8c9-271d-4a14-b399-7335912dc236</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-bc259fd77a30e212241cb5a05dad316d</value>
-      <webElementGuid>185f8bc0-2bdd-4cb8-ab5b-23481e48f2c4</webElementGuid>
+      <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
+      <webElementGuid>db9c9d22-5c0a-4c03-a731-336b6829d850</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-total-input']</value>
-      <webElementGuid>632bb939-758e-4af7-a4e6-c30a6afcd69d</webElementGuid>
+      <value>//*[@data-testid = 'sidebar-orders']</value>
+      <webElementGuid>c5413a81-41b5-4e10-8556-b0d350eb0309</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-total-input']</value>
-      <webElementGuid>ee42c074-ddc8-423f-8e9c-3550c8bdb219</webElementGuid>
+      <value>//*[@data-testid = 'sidebar-orders']</value>
+      <webElementGuid>38e7de2b-35ec-4874-b7ab-930bae1763ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'number']</value>
-      <webElementGuid>cb4d5db2-6fbd-44b4-ba0d-b9fee27c8709</webElementGuid>
+      <value>//a[@href = '/orders' and (text() = 'Orders' or . = 'Orders')]</value>
+      <webElementGuid>c7aa48d7-dd6d-4c1a-a7f3-79259d0d6cf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

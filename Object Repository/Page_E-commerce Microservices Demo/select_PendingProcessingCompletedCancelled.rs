@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_ORD-747</name>
+   <name>select_PendingProcessingCompletedCancelled</name>
    <tag></tag>
-   <elementGuidId>de86f9b8-1ed9-4b4a-a089-25486aeed255</elementGuidId>
+   <elementGuidId>e4d66896-8bbf-4fd3-93af-abb975f98431</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;order-status-select&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>tr.transition-colors:nth-child(1) td.font-medium</value>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'order-status-select']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;ORD-747&quot;i]</value>
+         <value>[data-testid=&quot;order-status-select&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,55 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>90e0fd99-0ad2-4f71-b22b-1341f80fdece</webElementGuid>
+      <value>select</value>
+      <webElementGuid>30c2cc22-9105-4372-a8b5-5b66184362cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>order-status-select</value>
+      <webElementGuid>ca63a386-1880-4c30-b738-fd5a0b0f3bd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>px-4 py-3 font-medium text-gray-900</value>
-      <webElementGuid>28793231-0f83-4dd2-a626-14994e1a3145</webElementGuid>
+      <value>w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white</value>
+      <webElementGuid>d1e0534f-10fb-42e1-920b-7130a7b2bdde</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ORD-747</value>
-      <webElementGuid>ef39f6d0-bc17-4799-a0d0-a884d544805e</webElementGuid>
+      <value>PendingProcessingCompletedCancelled</value>
+      <webElementGuid>f520813b-233c-435f-9518-7c30aee04e1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-26e4251158084d827987e50e0395eb3f</value>
-      <webElementGuid>56449933-321c-4581-8df2-555847a92f83</webElementGuid>
+      <value>md5.v1-e0649aa021db170a2614a3201e0d8633</value>
+      <webElementGuid>d0ef98ed-5b68-4c06-8f39-cecd5de68f31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
-      <webElementGuid>59b3cc63-4822-4906-a90a-266df26c32de</webElementGuid>
+      <value>//*[@data-testid = 'order-status-select']</value>
+      <webElementGuid>2d8d6226-129a-4745-9415-abdf58dcb30b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
-      <webElementGuid>2772b765-33d6-47a2-9824-a15682e8e894</webElementGuid>
+      <value>//*[@data-testid = 'order-status-select']</value>
+      <webElementGuid>e13e3353-cafe-4707-96c0-28b59e96fa39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'ORD-747' or . = 'ORD-747')]</value>
-      <webElementGuid>f8e2bc42-252b-458b-885d-e07a33fea86e</webElementGuid>
+      <value>//select[(text() = 'PendingProcessingCompletedCancelled' or . = 'PendingProcessingCompletedCancelled')]</value>
+      <webElementGuid>662928f4-540c-414e-8b96-1549d0adc96b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

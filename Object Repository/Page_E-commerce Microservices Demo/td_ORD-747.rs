@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_New Order</name>
+   <name>td_ORD-747</name>
    <tag></tag>
-   <elementGuidId>4a2e7741-bad5-4d3d-86ab-6d7ce33aa727</elementGuidId>
+   <elementGuidId>de86f9b8-1ed9-4b4a-a089-25486aeed255</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'order-create-button']</value>
+         <key>CSS</key>
+         <value>tr.transition-colors:nth-child(1) td.font-medium</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;order-create-button&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;order-create-button&quot;]</value>
+         <value>internal:role=cell[name=&quot;ORD-747&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,63 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>6dc9b1a2-a938-4f91-8d77-bee4f03b8801</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>order-create-button</value>
-      <webElementGuid>b62266ee-6083-477b-8db9-7921526fcab4</webElementGuid>
+      <value>td</value>
+      <webElementGuid>90e0fd99-0ad2-4f71-b22b-1341f80fdece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>flex items-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors</value>
-      <webElementGuid>b7d71321-2d2a-4e6c-a785-437d7495c35f</webElementGuid>
+      <value>px-4 py-3 font-medium text-gray-900</value>
+      <webElementGuid>28793231-0f83-4dd2-a626-14994e1a3145</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> New Order</value>
-      <webElementGuid>2e8820d7-17ad-431e-9ce9-0c5054022e1e</webElementGuid>
+      <value>ORD-747</value>
+      <webElementGuid>ef39f6d0-bc17-4799-a0d0-a884d544805e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-b06fe8b30a0deb952202ce44afdcf31b</value>
-      <webElementGuid>fd6b6e31-0db7-4b3a-aafb-779bd8c3a89d</webElementGuid>
+      <value>md5.v1-26e4251158084d827987e50e0395eb3f</value>
+      <webElementGuid>56449933-321c-4581-8df2-555847a92f83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-create-button']</value>
-      <webElementGuid>2d6c79b2-0a69-4156-b92f-43c5a8719e0f</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+      <webElementGuid>59b3cc63-4822-4906-a90a-266df26c32de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'order-create-button']</value>
-      <webElementGuid>ab3f1490-209f-49ed-9244-2b45962b354c</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and (name() = 'tr') and (position() = 1)]//td[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ')]</value>
+      <webElementGuid>2772b765-33d6-47a2-9824-a15682e8e894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = ' New Order' or . = ' New Order')]</value>
-      <webElementGuid>f34429c3-7a2d-4df4-809e-a86f8f69d477</webElementGuid>
+      <value>//td[(text() = 'ORD-747' or . = 'ORD-747')]</value>
+      <webElementGuid>f8e2bc42-252b-458b-885d-e07a33fea86e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

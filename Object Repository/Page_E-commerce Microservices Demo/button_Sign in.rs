@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Customer name</name>
+   <name>button_Sign in</name>
    <tag></tag>
-   <elementGuidId>c2e38f4c-0ec6-4b35-8a9c-6e5fb805d3fc</elementGuidId>
+   <elementGuidId>4c53c0b0-a66c-4e75-a8ed-913f5809f3af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'customer-name-input']</value>
+         <key>CSS</key>
+         <value>[data-testid=&quot;login-submit-button&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[data-testid=&quot;customer-name-input&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'login-submit-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-testid=&quot;customer-name-input&quot;]</value>
+         <value>[data-testid=&quot;login-submit-button&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>42e0110d-be7a-4293-8b64-1e90bd3306c9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>customer-name-input</value>
-      <webElementGuid>de905c6f-5da0-4008-89e2-3e16bd1b6b57</webElementGuid>
+      <value>button</value>
+      <webElementGuid>a48f5b9f-d273-4d74-a1b7-ec8b75978c4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>411346c3-2576-4d13-8f44-bd5b23a87d54</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>0064709f-5a38-4f48-b8d5-5f7912a3fb4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>Customer name</value>
-      <webElementGuid>cafeb9f3-811b-4527-a588-9e40bf51940f</webElementGuid>
+      <value>login-submit-button</value>
+      <webElementGuid>340f7bef-a353-4a06-bf6b-6759e3b5d63c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500</value>
-      <webElementGuid>7dfb4fa4-c0da-4d3b-b75c-133bb163f24d</webElementGuid>
+      <value>w-full py-2.5 px-4 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium rounded-lg text-sm transition-colors flex items-center justify-center gap-2</value>
+      <webElementGuid>13030997-9851-452b-9246-628841b6c474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>21e61ebe-f3db-4db6-ac9f-eca7969ffae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-f7a3e691b8fd2f1c4f43e2bf4e59babd</value>
-      <webElementGuid>9af91360-33a0-4249-96f5-6a1f2013afa9</webElementGuid>
+      <value>md5.v1-7ba259bb220865aef1cdef6627b19ae5</value>
+      <webElementGuid>ec7702dc-83be-4fc6-b6f7-dc20bf487198</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'customer-name-input']</value>
-      <webElementGuid>f464be4c-40ce-4ea2-ad86-b188c83607c8</webElementGuid>
+      <value>//*[@data-testid = 'login-submit-button']</value>
+      <webElementGuid>d404c112-ca13-4424-b5ea-0c328dc04066</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@data-testid = 'customer-name-input']</value>
-      <webElementGuid>84b89387-46b1-4299-850b-d4c390682df7</webElementGuid>
+      <value>//*[@data-testid = 'login-submit-button']</value>
+      <webElementGuid>d85884a3-24be-41f3-8419-df24d2df51b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Customer name']</value>
-      <webElementGuid>53072635-224b-42f5-801b-9a51c1bb728f</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>7eedb4fb-b55c-4037-af81-22237cee31c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
