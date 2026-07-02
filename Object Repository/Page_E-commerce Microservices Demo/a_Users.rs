@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Orders</name>
+   <name>a_Users</name>
    <tag></tag>
-   <elementGuidId>ff3e99d0-33ae-4f2f-b1cc-bca412c96ca7</elementGuidId>
+   <elementGuidId>6125264e-ff22-43b0-b221-dd5b413d4d6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0fd8bf7a-2088-401f-bf8e-0253aa40d975</webElementGuid>
+      <webElementGuid>3c6d3651-451b-4da6-8f0e-9bd5c7e8910b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>sidebar-orders</value>
-      <webElementGuid>a06dc0a0-8557-48ca-a8e4-5c2572b29853</webElementGuid>
+      <webElementGuid>69c3db36-4f87-4dbc-abce-759364cd696c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <type>Main</type>
       <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
               text-gray-300 hover:bg-gray-800 hover:text-white</value>
-      <webElementGuid>b68b9e61-8cdc-41c6-b6e2-30810f97f6eb</webElementGuid>
+      <webElementGuid>397ac3b6-9ad9-4dba-b8f5-cb66ed54e35c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/orders</value>
-      <webElementGuid>b95995db-d04c-439b-b0a9-b80b41029984</webElementGuid>
+      <webElementGuid>09197610-452f-48dc-8c41-310fa07a9a1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-discover</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c2b1808e-782d-499f-b3a0-6787f7ba0fff</webElementGuid>
+      <webElementGuid>c903eeb1-4aca-4fd3-8485-23ebc99cf031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Orders</value>
-      <webElementGuid>53a3f024-9044-4693-a7b6-30f285d18ddd</webElementGuid>
+      <webElementGuid>23ff1292-4c2f-4d43-840c-c10e44df4eb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
-      <webElementGuid>4240b0db-7f76-4e91-b388-aa073544690d</webElementGuid>
+      <webElementGuid>21b6fc6c-1579-4798-a4b2-edcf2e4cb153</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>1408a7c4-479e-4000-861f-f3e1589cd771</webElementGuid>
+      <webElementGuid>97987f08-1dd1-4da6-8573-e27ea323d6cb</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

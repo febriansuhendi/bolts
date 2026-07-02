@@ -1,113 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login with Valid Credential</name>
+   <name>Handle Dynamic Table</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>68958038-4c7a-4b15-a553-b5116a678bec</testCaseGuid>
+   <testCaseGuid>d96b086d-82e6-4539-9c4a-6e019d420af7</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7ea3f04-3868-4e88-b138-1a8000089088</variableId>
+      <variableId>2fd66016-bf20-4caf-baaf-6bd9e42b3583</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>26d91626-00f6-43ab-bc0e-0da0b7b1906d</variableId>
+      <variableId>1904bd09-b8a3-4115-98c9-74833204194c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>895f4c16-08bc-4576-8a47-c8bafbd63180</variableId>
+      <variableId>22255e5b-9c7b-47d8-817f-cc38e172617e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5fabb8cb-f67a-4fc3-ad4c-07bba6935a63</variableId>
+      <variableId>2af2951b-4f56-4aff-8c96-d157dcad49a1</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0460eafd-65a4-4e25-b43d-16fe89cc6667</variableId>
+      <variableId>fe10b1ca-fe47-4f9b-b071-5e4bca0a9b64</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>426f1083-e607-443b-8ef2-cfa1037a6b02</variableId>
+      <variableId>7f3eefa8-22ca-47f6-be54-3803c734a2ac</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8eb1677c-4c03-48a1-9cfb-6405fa2bfc0c</variableId>
+      <variableId>fef90e8e-4fc2-48cd-a82a-36ae00660bd5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b256a5f7-6fa3-46db-904d-46ab2b840cee</variableId>
+      <variableId>6c02ae9c-6d4c-40a4-b69c-4c683cbd6265</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>960204ac-e0c9-4358-ade3-8d7a6768f17c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.firstName</defaultValue>
       <description></description>
-      <id>c7ea3f04-3868-4e88-b138-1a8000089088</id>
+      <id>2fd66016-bf20-4caf-baaf-6bd9e42b3583</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.lastName</defaultValue>
       <description></description>
-      <id>26d91626-00f6-43ab-bc0e-0da0b7b1906d</id>
+      <id>1904bd09-b8a3-4115-98c9-74833204194c</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.companyName</defaultValue>
       <description></description>
-      <id>895f4c16-08bc-4576-8a47-c8bafbd63180</id>
+      <id>22255e5b-9c7b-47d8-817f-cc38e172617e</id>
       <masked>false</masked>
       <name>companyName</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.country</defaultValue>
       <description></description>
-      <id>5fabb8cb-f67a-4fc3-ad4c-07bba6935a63</id>
+      <id>2af2951b-4f56-4aff-8c96-d157dcad49a1</id>
       <masked>false</masked>
       <name>country</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.address</defaultValue>
       <description></description>
-      <id>0460eafd-65a4-4e25-b43d-16fe89cc6667</id>
+      <id>fe10b1ca-fe47-4f9b-b071-5e4bca0a9b64</id>
       <masked>false</masked>
       <name>address</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.city</defaultValue>
       <description></description>
-      <id>426f1083-e607-443b-8ef2-cfa1037a6b02</id>
+      <id>7f3eefa8-22ca-47f6-be54-3803c734a2ac</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.postCode</defaultValue>
       <description></description>
-      <id>8eb1677c-4c03-48a1-9cfb-6405fa2bfc0c</id>
+      <id>fef90e8e-4fc2-48cd-a82a-36ae00660bd5</id>
       <masked>false</masked>
       <name>postCode</name>
    </variable>
    <variable>
       <defaultValue>GlobalVariable.Phone</defaultValue>
       <description></description>
-      <id>b256a5f7-6fa3-46db-904d-46ab2b840cee</id>
+      <id>6c02ae9c-6d4c-40a4-b69c-4c683cbd6265</id>
       <masked>false</masked>
       <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>960204ac-e0c9-4358-ade3-8d7a6768f17c</id>
+      <masked>false</masked>
+      <name>userName</name>
    </variable>
 </TestCaseEntity>
