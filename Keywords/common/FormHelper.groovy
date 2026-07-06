@@ -20,16 +20,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class TableHelper {
+public class FormHelper {
 	@Keyword
-	def clickEditAction(String name) {
-		WebUI.waitForElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/td_editButton', [('userName') : name]), 3)
-		WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/td_editButton', [('userName') : name]))
-	}
-	
-	@Keyword
-	def verifyDataVisible(String name) {
-		WebUI.waitForElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/td_columnByName', [('userName') : name]), 3)
-		WebUI.verifyElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/td_columnByName', [('userName') : name]))
+	def smartInput(TestObject to, String text) {
+		int maxRetry = 2
+		
+		for(int i=1; i<=maxRetry; i++) {
+			try {
+				WebUI.waitForElementVisible(to, 5)
+				WebUI.setText(to, text)
+				return
+			}
+			catch(Exception e){
+				WebUI.comment("Retry ${i} failed : ${e.getMessage()}")
+				WebUI.takeScreenshot()
+			}
+		}
 	}
 }

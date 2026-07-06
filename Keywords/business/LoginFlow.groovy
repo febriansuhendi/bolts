@@ -27,11 +27,42 @@ public class LoginFlow {
 	ClickHelper clickHelper = new ClickHelper()
 	
 	@Keyword
-	def loginAsAdmin() {
-		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), GlobalVariable.email)
-		WebUI.setEncryptedText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), GlobalVariable.password)
+	def login() {
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), 'admin@test.com')
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), 'password123')
 		clickHelper.smartClick(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
-//		CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
+		WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
+	}
+	
+	@Keyword
+	def loginWithExcel() {
+		TestData data = findTestData("Data Files/LoginData")
+		String email = data.getValue("email", 1)
+		String password = data.getValue("password", 1)
+		
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), email)
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), password)
+		clickHelper.smartClick(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
+		WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
+	}
+	
+	@Keyword
+	def loginWithExcelMultiRow(String email, String password) {		
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), email)
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), password)
+		clickHelper.smartClick(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
+		WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
+	}
+	
+	@Keyword
+	def loginWithCsv() {
+		TestData data = findTestData("Data Files/LoginDataCSV")
+		String email = data.getValue("email", 1)
+		String password = data.getValue("password", 1)
+		
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_admintest.com'), email)
+		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), password)
+		clickHelper.smartClick(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
 		WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
 	}
 }

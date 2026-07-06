@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Users</name>
+   <tag></tag>
+   <elementGuidId>d0f2b64d-8cdc-451c-8c2b-6cfc2f4d606e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;sidebar-orders&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-users']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;sidebar-orders&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d3922a86-3299-4f0e-994c-591266b25cbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>sidebar-orders</value>
+      <webElementGuid>508539d4-0042-4922-82db-710076e4760f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
+              text-gray-300 hover:bg-gray-800 hover:text-white</value>
+      <webElementGuid>22908404-e483-464c-90ab-f8b23d8c385d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/orders</value>
+      <webElementGuid>74fba3ef-44d6-417c-b9b5-6d5b7ab4abd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-discover</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>baabb64f-caab-4991-969e-e2bb3a7159ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Orders</value>
+      <webElementGuid>f1c5e66a-5de3-4787-9b8b-4d21a0c5dca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
+      <webElementGuid>27528d8d-235e-4d5d-9c23-d48723da2ad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-orders']</value>
+      <webElementGuid>166a98bb-d731-4b65-a6cb-8cdb14259436</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'sidebar-users']</value>
+      <webElementGuid>118e4e32-74ce-4b94-a912-85c913620232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/users' and (text() = 'Users' or . = 'Users')]</value>
+      <webElementGuid>e63b0c07-839a-4851-b965-072bac20780c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

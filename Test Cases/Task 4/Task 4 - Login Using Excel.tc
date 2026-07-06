@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Task 4 - Login Using Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9d61d47-ff42-4e0c-9e02-cbb8f8e25622</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c2da4d7f-2f97-4f58-8e26-acf427ab3f53</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c2da4d7f-2f97-4f58-8e26-acf427ab3f53</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>68a47278-53e0-453c-a27c-e0120afb88af</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c2da4d7f-2f97-4f58-8e26-acf427ab3f53</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>701fc352-c475-4c6b-a256-c4e5a435daa3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('LoginData')</defaultValue>
+      <description></description>
+      <id>68a47278-53e0-453c-a27c-e0120afb88af</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('LoginData')</defaultValue>
+      <description></description>
+      <id>701fc352-c475-4c6b-a256-c4e5a435daa3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

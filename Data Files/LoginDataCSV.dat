@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>LoginDataCSV</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>SEMICOLON</csvSeperator>
+   <dataFileGUID>91eada2e-a76a-4c06-8735-8140b113d520</dataFileGUID>
+   <dataSourceUrl>Data Files/data-user.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
