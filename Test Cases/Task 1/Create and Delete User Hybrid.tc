@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Using Excel</name>
+   <name>Create and Delete User Hybrid</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>18133959-1447-4a82-949a-756237d61c5e</testCaseGuid>
+   <testCaseGuid>1ffb9da3-a764-43f7-bd16-42c77228d1ba</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApiCollectionEntity>
+   <description></description>
+   <name>Bolt Collection</name>
+   <tag></tag>
+   <folderType>WEBELEMENT</folderType>
+   <authorization>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>12312313</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorization>
+   <collectionType>MANUAL</collectionType>
+</ApiCollectionEntity>

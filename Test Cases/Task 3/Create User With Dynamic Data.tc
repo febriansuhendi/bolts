@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create User With Dynamic Data</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2d8057d8-553c-49d1-aee4-45e3e5cfe278</testCaseGuid>
-</TestCaseEntity>
