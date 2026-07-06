@@ -54,6 +54,12 @@
       <value></value>
       <variableId>9bda06b9-0106-4f48-9433-1f5b5b9f9cb1</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a22d16e-a688-46ca-8ea7-57b58dc1fd41</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.firstName</defaultValue>
       <description></description>
@@ -109,5 +115,12 @@
       <id>9bda06b9-0106-4f48-9433-1f5b5b9f9cb1</id>
       <masked>false</masked>
       <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a22d16e-a688-46ca-8ea7-57b58dc1fd41</id>
+      <masked>false</masked>
+      <name>userName</name>
    </variable>
 </TestCaseEntity>
