@@ -16,14 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
 
-def reqLogin = WS.sendRequest(findTestObject('bolt/API/Postman/Auth Service/Login', [('baseUrl') : GlobalVariable.baseUrl
-            , ('email') : 'jim.root@gmail.com', ('password') : 'password']))
+// login api
+String token = CustomKeywords.'business.LoginFlow.loginViaApi'('admin@test.com', 'password123')
+// create user via api
+def createUser = CustomKeywords.'business.CreateUser.createUserViaApi'(token)
+println createUser.name
 
-String token = WS.getElementPropertyValue(reqLogin, 'token')
+//login via web to verify data
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://e-commerce-microserv-nrvq.bolt.host/login')
+CustomKeywords.'business.LoginFlow.login'()
+CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Users'))
+CustomKeywords.'common.TableHelper.verifyDataVisible'(createUser.name)
 
-//println(token)
-def reqCreateUser = WS.sendRequest(findTestObject('bolt/API/Postman/User Service/Create User', [('baseUrl') : GlobalVariable.baseUrl
-            , ('token') : token]))
-println('create user : '+reqCreateUser)
+
 

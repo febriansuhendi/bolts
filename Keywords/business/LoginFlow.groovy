@@ -20,7 +20,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
 import internal.GlobalVariable
 
 public class LoginFlow {
@@ -64,5 +65,27 @@ public class LoginFlow {
 		WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Enter your password'), password)
 		clickHelper.smartClick(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Sign in'))
 		WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Orders'), 0)
+	}
+	
+	@Keyword
+	def loginViaApi(String email, String pass) {
+		RequestObject reqLogin = findTestObject('bolt/API/Postman/Auth Service/Login',
+			[
+				('baseUrl') : GlobalVariable.baseUrl,
+				('email') : email,
+				('password') : pass
+				]
+				)
+		println reqLogin.getHttpHeaderProperties()
+		println reqLogin.getBodyContent().getText()
+		
+		ResponseObject resLogin = WS.sendRequest(reqLogin)
+		println resLogin.getHeaderFields()
+		println resLogin.getResponseBodyContent()
+		
+		WS.verifyResponseStatusCode(resLogin, 200)
+		
+		String token = WS.getElementPropertyValue(resLogin, 'token')
+		return token
 	}
 }

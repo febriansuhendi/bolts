@@ -17,7 +17,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
 import internal.GlobalVariable
 import common.ClickHelper
 import common.FormHelper
@@ -42,6 +43,38 @@ public class CreateUser {
 		clickHelper.smartClick(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/button_submitNewUser'))
 //		verify user created
 		tableHelper.verifyDataVisible(name)
+	}
+	
+	@Keyword
+	Map createUserViaApi(String token) {
+		String timestamp = String.valueOf(System.currentTimeMillis())
+		String fullName = "User API "+timestamp
+		String email = fullName.replaceAll("\\s+", "").toLowerCase()+"@gmail.com"
+		String pass = "password"
+		String role = "admin"
+		
+		RequestObject reqCreateUser = findTestObject('bolt/API/Postman/User Service/Create User',
+			[
+				('baseUrl') : GlobalVariable.baseUrl,
+				('token') : token,
+				('newEmail') : email,
+				('newPassword') : pass,
+				('role') : role,
+				('newUser') : fullName
+				]
+				)
+		println reqCreateUser.getHttpHeaderProperties()
+		println reqCreateUser.getBodyContent()
+		
+		ResponseObject resCreateUser = WS.sendRequest(reqCreateUser)
+		println resCreateUser.getBodyContent()
+		
+		WS.verifyResponseStatusCode(resCreateUser, 201)
+		return[
+			name : fullName,
+			email : email,
+			role : role
+			]
 	}
 
 }
