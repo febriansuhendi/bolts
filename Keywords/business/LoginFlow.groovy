@@ -1,6 +1,7 @@
 package business
 
 import common.ClickHelper
+import api.Validator
 
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -26,6 +27,7 @@ import internal.GlobalVariable
 
 public class LoginFlow {
 	ClickHelper clickHelper = new ClickHelper()
+	Validator validator = new Validator()
 	
 	@Keyword
 	def login() {
@@ -84,6 +86,7 @@ public class LoginFlow {
 		println resLogin.getResponseBodyContent()
 		
 		WS.verifyResponseStatusCode(resLogin, 200)
+		validator.validateSchema(resLogin, "Include/schema/loginSchema.json")
 		
 		String token = WS.getElementPropertyValue(resLogin, 'token')
 		return token
