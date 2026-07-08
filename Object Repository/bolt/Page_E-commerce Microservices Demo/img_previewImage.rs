@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_editButton</name>
+   <name>img_previewImage</name>
    <tag></tag>
-   <elementGuidId>87f599fc-2908-4a9d-b88c-c43a4e2996a7</elementGuidId>
+   <elementGuidId>c1febac1-33ad-402d-bd46-3ad0dea44b31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[.='${userName}']/following-sibling::td//button[contains(@data-testid, 'edit')]</value>
+         <value>//img[@data-testid='preview-image']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

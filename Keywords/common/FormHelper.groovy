@@ -17,7 +17,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
+import com.kms.katalon.core.configuration.RunConfiguration
 import internal.GlobalVariable
 
 public class FormHelper {
@@ -35,6 +35,21 @@ public class FormHelper {
 				WebUI.comment("Retry ${i} failed : ${e.getMessage()}")
 				WebUI.takeScreenshot()
 			}
+		}
+	}
+	
+	@Keyword
+	def uploadImage(String path) {
+		String projectDir = RunConfiguration.getProjectDir()
+		String filePath = projectDir + path
+		try {
+			WebUI.waitForElementVisible(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/input_uploadImage'), 3)
+			WebUI.uploadFile(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/input_uploadImage'), filePath)
+			return
+		}
+		catch(Exception e) {
+			WebUI.comment("Upload Image Failed!")
+			WebUI.takeScreenshot()
 		}
 	}
 }

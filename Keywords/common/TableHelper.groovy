@@ -28,6 +28,12 @@ public class TableHelper {
 	}
 	
 	@Keyword
+	def clickPreviewAction(String name) {
+		WebUI.waitForElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/button_previewProduct', [('userName') : name]), 3)
+		WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/button_previewProduct', [('userName') : name]))
+	}
+	
+	@Keyword
 	def verifyDataVisible(String name) {
 		WebUI.waitForElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/td_columnByName', [('userName') : name]), 3)
 		WebUI.verifyElementVisible(findTestObject('bolt/Page_E-commerce Microservices Demo/td_columnByName', [('userName') : name]))

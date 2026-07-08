@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_editButton</name>
+   <name>button_previewProduct</name>
    <tag></tag>
-   <elementGuidId>87f599fc-2908-4a9d-b88c-c43a4e2996a7</elementGuidId>
+   <elementGuidId>f03be75c-5902-4849-af87-6718d92b8a98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[.='${userName}']/following-sibling::td//button[contains(@data-testid, 'edit')]</value>
+         <value>//td[.='${userName}']/following-sibling::td//a[@id='btn-preview']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
