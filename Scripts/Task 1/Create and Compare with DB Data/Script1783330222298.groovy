@@ -18,19 +18,28 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
+import database.UsersQuery
+import database.DBConnection
 
-// login api
-String token = CustomKeywords.'business.LoginFlow.loginViaApi'('admin@test.com', 'password123')
-// create user via api
-def createUser = CustomKeywords.'business.CreateUser.createUserViaApi'(token)
-println createUser.name
-
-//login via web to verify data
+//login via web
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://e-commerce-microserv-nrvq.bolt.host/login')
 CustomKeywords.'business.LoginFlow.login'()
 CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Users'))
-CustomKeywords.'common.TableHelper.verifyDataVisible'(createUser.name)
 
+//create user
+Map createUser = CustomKeywords.'business.CreateUser.createUserWithTimestamp'()
 
+//get user from db
+UsersQuery query = new UsersQuery()
+DBConnection conn = new DBConnection()
+Map user = query.getUserByName(createUser.name)
+conn.closeDB()
+println user.name
+println user.email
+println user.role
+println user.id
 
+//verify data
+WebUI.verifyEqual(createUser.name, user.name)
+WebUI.verifyEqual(createUser.email, user.email)

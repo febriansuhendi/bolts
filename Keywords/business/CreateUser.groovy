@@ -30,7 +30,7 @@ public class CreateUser {
 	TableHelper tableHelper = new TableHelper()
 	
 	@Keyword
-	def createUserWithTimestamp() {
+	Map createUserWithTimestamp() {
 		String timestamp = String.valueOf(System.currentTimeMillis())
 		String email = "User_"+timestamp+"@gmail.com"
 		String name = "User "+timestamp
@@ -43,6 +43,11 @@ public class CreateUser {
 		clickHelper.smartClick(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/button_submitNewUser'))
 //		verify user created
 		tableHelper.verifyDataVisible(name)
+		
+		return[
+			name: name,
+			email: email
+			]
 	}
 	
 	@Keyword
