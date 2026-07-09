@@ -21,5 +21,3 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://e-commerce-microserv-nrvq.bolt.host/login')
 CustomKeywords.'business.LoginFlow.login'()
-CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/a_Products'))
-CustomKeywords.'business.Products.createProduct'()

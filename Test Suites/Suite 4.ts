@@ -15,7 +15,7 @@
       <guid>9e5bdf2e-9b96-43c5-a433-99d1f64a7cfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Task 1/Upload Product Image</testCaseId>
+      <testCaseId>Test Cases/Task 1/Login with Valid Credential</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
