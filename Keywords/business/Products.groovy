@@ -47,7 +47,7 @@ public class Products {
 		formHelper.smartInput(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/rte_description'), desc)
 		formHelper.smartInput(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/input_price'), price)
 		formHelper.smartInput(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/input_stock'), stock)
-		formHelper.uploadImage("/Include/image/AC-1-PK-Daikin-R32.jpg")
+		formHelper.uploadImage("/Include/image/AC-1-PK-Daikin-R32..jpg")
 		clickHelper.smartClick(findTestObject('Object Repository/bolt/Page_E-commerce Microservices Demo/button_saveProduct'))
 //		verify user created
 		tableHelper.verifyDataVisible(name)

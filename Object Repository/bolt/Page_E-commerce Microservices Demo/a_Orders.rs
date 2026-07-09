@@ -6,12 +6,12 @@
    <elementGuidId>ff3e99d0-33ae-4f2f-b1cc-bca412c96ca7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'sidebar-orders']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[data-testid=&quot;sidebar-orders&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'sidebar-users']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4a57baa1-35b2-47f6-8c82-de3518ebd9d6</webElementGuid>
+      <webElementGuid>0695dd1e-d7a6-4187-848c-18abebe61715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>sidebar-orders</value>
-      <webElementGuid>91ee04b6-7afa-4162-858b-6f5a56fc041f</webElementGuid>
+      <webElementGuid>832b7c62-392e-42b1-8fa2-09eda7af04a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <type>Main</type>
       <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
               text-gray-300 hover:bg-gray-800 hover:text-white</value>
-      <webElementGuid>452d8c8e-3bf7-4650-a8b6-430436d19741</webElementGuid>
+      <webElementGuid>fff03843-00b0-42fa-972c-ee5bf9e848d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/orders</value>
-      <webElementGuid>260a2385-df7c-436c-96d7-ff20ee801cba</webElementGuid>
+      <webElementGuid>2b7b18fb-9c5c-4433-ac96-ef73aef9bc7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-discover</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>1b3f959a-d7b3-4b8e-990b-a9111e9af5ab</webElementGuid>
+      <webElementGuid>acc38449-b94c-47f1-afb2-f2f51deaa2d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Orders</value>
-      <webElementGuid>e9c3c8c9-271d-4a14-b399-7335912dc236</webElementGuid>
+      <webElementGuid>38fb9de6-ad4e-4e9f-aa67-42dd9f22d27a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
-      <webElementGuid>db9c9d22-5c0a-4c03-a731-336b6829d850</webElementGuid>
+      <webElementGuid>ac3f21eb-8db0-4e28-a241-2c1733d96c79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>c5413a81-41b5-4e10-8556-b0d350eb0309</webElementGuid>
+      <webElementGuid>623d184f-82c3-4496-88c2-7d2b7b9337b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>38e7de2b-35ec-4874-b7ab-930bae1763ec</webElementGuid>
+      <webElementGuid>c8aa451e-5759-4397-af2b-c4511d2061fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/orders' and (text() = 'Orders' or . = 'Orders')]</value>
-      <webElementGuid>c7aa48d7-dd6d-4c1a-a7f3-79259d0d6cf0</webElementGuid>
+      <webElementGuid>0e3d60ef-5d76-425d-bc2f-2d50cdc3c2e5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

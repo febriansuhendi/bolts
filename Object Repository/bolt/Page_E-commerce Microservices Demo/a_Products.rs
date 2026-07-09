@@ -6,12 +6,12 @@
    <elementGuidId>29f877b0-731a-46b6-9b7a-f486b38cbe6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@data-testid = 'sidebar-products']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>[data-testid=&quot;sidebar-orders&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class = 'sidebar-product']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>83b4665d-f2ad-474a-ba3d-915be4b50434</webElementGuid>
+      <webElementGuid>2bb579a1-8bb3-4c7b-a822-634a8fe8a575</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>sidebar-orders</value>
-      <webElementGuid>3b35d7bd-ebca-4431-a783-19a28100d683</webElementGuid>
+      <webElementGuid>dbd60790-1284-4fd0-88d4-685837c18842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <type>Main</type>
       <value>flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors
               text-gray-300 hover:bg-gray-800 hover:text-white</value>
-      <webElementGuid>c1ff3733-c22a-4948-80d1-17b8546329dd</webElementGuid>
+      <webElementGuid>064ff42e-a8ca-439b-801d-261f3a3cbe12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/orders</value>
-      <webElementGuid>34fefa01-2dd9-43b6-840c-5393ccdbe8ca</webElementGuid>
+      <webElementGuid>6ca2dce6-e914-4590-bad1-04a9455dce6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-discover</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>16594c12-5a04-4f6f-8930-c6678bbea942</webElementGuid>
+      <webElementGuid>850f41d9-897d-4db6-84b0-995559d5f858</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Orders</value>
-      <webElementGuid>06e9eb1f-3111-46e4-8b85-a8958287a676</webElementGuid>
+      <webElementGuid>96a98b40-23b7-4fcd-8275-4d2a3d6ac456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a8e27a484f14e65004ada10c8431a125</value>
-      <webElementGuid>71fe0744-c2c6-4fa7-a482-6205bf1239f4</webElementGuid>
+      <webElementGuid>62b5d1eb-f319-4d33-8368-012f502dd50e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-orders']</value>
-      <webElementGuid>50489e33-0a41-4f8f-a617-f2806dc6f663</webElementGuid>
+      <webElementGuid>a73db306-43aa-499e-8095-b2069957ec45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@data-testid = 'sidebar-products']</value>
-      <webElementGuid>b48a1912-b796-4752-a2ac-8e4734b737f3</webElementGuid>
+      <webElementGuid>bacfe4d5-1880-4762-9937-288e4801659c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/products' and (text() = 'Products' or . = 'Products')]</value>
-      <webElementGuid>fe4fbbe6-9e3a-4fa2-afaf-95ba01635439</webElementGuid>
+      <webElementGuid>1dc3b0ff-d28d-462d-9bfa-a0f73ea62e97</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@data-testid='product-create-button']</value>
+         <value>//div/div/button[@data-testid='product-create-button']</value>
       </entry>
       <entry>
          <key>BASIC</key>
