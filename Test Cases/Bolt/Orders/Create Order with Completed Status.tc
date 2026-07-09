@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Create Order with Completed Status</name>
-   <tag></tag>
+   <tag>test-tag</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>c96f7725-8d62-485d-963c-e0207197ef65</testCaseGuid>
