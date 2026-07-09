@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Suite 2</name>
+   <name>Smoke Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,5 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>751f9e73-3b38-4ed9-b6e4-7b3071601a07</testSuiteGuid>
+   <testSuiteGuid>963c5e1b-a2b0-4cb1-8204-7e9dc604fcfd</testSuiteGuid>
+   <testCaseLink>
+      <guid>4203e50a-42f1-44ee-bfb1-f3b63507983c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Task 1/Login with Valid Credential</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
