@@ -27,19 +27,5 @@ CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-comme
 WebUI.verifyElementPresent(findTestObject('bolt/Page_E-commerce Microservices Demo/table_Order CustomerTotalStatusActionsorder-1fe'), 
     0)
 
-//CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/button_New Order'))
-//
-//WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_e.g. ORD-003'), 'ORD-747')
-//
-//WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_Customer name'), 'Jim Root')
-//
-//WebUI.setText(findTestObject('bolt/Page_E-commerce Microservices Demo/input_w-full px-3 py-2 border border-gray-300 r'), 
-//    '0100')
-//
-//WebUI.selectOptionByValue(findTestObject('bolt/Page_E-commerce Microservices Demo/select_PendingProcessingCompletedCancelled'), 
-//    'processing', false)
-//
-//CustomKeywords.'common.ClickHelper.smartClick'(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Save'))
-
 CustomKeywords.'common.TableHelper.clickEditAction'('Paul Grey')
 
