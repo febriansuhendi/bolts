@@ -49,3 +49,5 @@ WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/button_Save'
 
 WebUI.click(findTestObject('bolt/Page_E-commerce Microservices Demo/td_ORD-747'))
 
+WebUI.clickImage(findTestObject('bolt/Page_E-commerce Microservices Demo/table_Order CustomerTotalStatusActionsorder-1fe'))
+
